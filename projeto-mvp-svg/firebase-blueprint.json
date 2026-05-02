@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Competition": {
+      "title": "Concurso",
+      "description": "Definição de uma competição de design de blobs",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Nome da competição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Regras e detalhes"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "closed"],
+          "description": "Estado atual"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Data de criação em formato ISO"
+        }
+      },
+      "required": ["name", "description", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/competitions/{competitionId}": {
+      "schema": "Competition",
+      "description": "Coleção de competições gerenciadas por administradores"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default Deny Catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Global Helpers
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == 'vpaes053@gmail.com' &&
+        request.auth.token.email_verified == true
+      );
+    }
+
+    // Entidade: Competition
+    function isValidCompetition(data) {
+      return data.keys().hasAll(['name', 'description', 'status', 'createdAt']) &&
+             data.keys().size() == 4 &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.description is string && data.description.size() <= 5000 &&
+             data.status in ['active', 'closed'] &&
+             data.createdAt is string && data.createdAt.size() <= 50;
+    }
+
+    match /competitions/{competitionId} {
+      // Regra de Listagem: Garantir que o recurso sendo lido é verificado
+      allow list: if isSignedIn();
+      allow get: if isSignedIn();
+      
+      allow create: if isAdmin() && 
+                      isValidCompetition(request.resource.data) && 
+                      isValidId(competitionId);
+                      
+      allow update: if isAdmin() && 
+                      isValidCompetition(request.resource.data) && 
+                      request.resource.data.createdAt == resource.data.createdAt && (
+                        // Ação: Trocar Status
+                        (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])) ||
+                        // Ação: Editar Info
+                        (request.resource.data.diff(resource.data).affectedKeys().hasAll(['name', 'description']))
+                      );
+                      
+      allow delete: if isAdmin();
+    }
+  }
+}
