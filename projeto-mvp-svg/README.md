@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/289bb96c-b29d-4575-92f1-c34b3b226d47
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# 🎨 Maker SVG - Personalização Estética
+ 
+## 📝 Descrição do Projeto
+O **Maker SVG** é um editor profissional de formas orgânicas (blobs) desenvolvido para designers e desenvolvedores que buscam criar ativos visuais únicos com alta precisão. O projeto transcende a simples geração estética, oferecendo um motor de **animação por morphing** e um sistema de **edição de pontos vetoriais**, permitindo a criação de transições fluidas e orgânicas para interfaces modernas.
+ 
+Desenvolvido como uma solução Full-Stack, o sistema integra um ambiente de design generativo com um **Painel Administrativo em tempo real**, facilitando a gestão de concursos e bibliotecas de assets. O foco principal é mitigar a barreira entre o design abstrato e a implementação técnica, fornecendo exportações prontas para produção (SVG, PNG e Componentes React).
+ 
+![Figura 1: Dashboard do Maker SVG exibindo o editor principal e as variações de morphing.](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop)
+*Figura 1: Dashboard principal do sistema exibindo o editor de formas e ferramentas de animação.*
+ 
+## 🚀 Diferenciais e Funcionalidades
+*   **Animação por Morphing:** Sistema de keyframes para capturar estados e gerar transições CSS/SVG fluidas.
+*   **Backend em Tempo Real:** Integração com **Firebase** para persistência de designs e gestão de competições.
+*   **Gerador Mágico IA:** Algoritmos procedurais que sugerem variações inteligentes baseadas em complexidade e contraste.
+*   **Acessibilidade Nativa:** Interface adaptável com suporte a alto contraste e preparação para tecnologias assistivas.
+ 
+## 🛠️ Tecnologias Utilizadas
+*   **Framework:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+*   **Estilização:** [Tailwind CSS 4.0](https://tailwindcss.com/)
+*   **Animação:** [Motion](https://motion.dev/) (antigo Framer Motion)
+*   **Backend & Auth:** [Firebase](https://firebase.google.com/) (Firestore & Authentication)
+*   **Gerência de Estado:** [Zustand](https://zustand-demo.pmnd.rs/)
+ 
+## 📊 Resultados e Aprendizados
+O projeto demonstrou a viabilidade de ferramentas de design ricas rodando inteiramente no navegador, com alta performance em renderização vetorial.
+*   **Performance:** Implementação de cálculos matemáticos para simplificação de curvas de Bézier em tempo real.
+*   **Arquitetura:** Separação clara entre a lógica de manipulação vetorial e a camada de persistência de dados.
+*   **UX/UI:** Desenvolvimento de uma interface "Glassmorphism" que prioriza o foco no conteúdo criativo.
+ 
+## 🔧 Como Executar
+ 
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/vpaes053/maker-svg.git
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Configure as variáveis de ambiente:**
+    Crie um arquivo `.env` na raiz com as chaves do Firebase (veja `.env.example`).
+4.  **Inicie o ambiente de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+ 
+---
+[Voltar ao início](https://github.com/vpaes053)
