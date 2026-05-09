@@ -5,8 +5,6 @@ O **Maker SVG** é um editor profissional de formas orgânicas (blobs) desenvolv
  
 Desenvolvido como uma solução Full-Stack, o sistema integra um ambiente de design generativo com um **Painel Administrativo em tempo real**, facilitando a gestão de concursos e bibliotecas de assets. O foco principal é mitigar a barreira entre o design abstrato e a implementação técnica, fornecendo exportações prontas para produção (SVG, PNG e Componentes React).
  
-![Figura 1: Dashboard do Maker SVG exibindo o editor principal e as variações de morphing.](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop)
-*Figura 1: Dashboard principal do sistema exibindo o editor de formas e ferramentas de animação.*
  
 ## 🚀 Diferenciais e Funcionalidades
 *   **Animação por Morphing:** Sistema de keyframes para capturar estados e gerar transições CSS/SVG fluidas.
