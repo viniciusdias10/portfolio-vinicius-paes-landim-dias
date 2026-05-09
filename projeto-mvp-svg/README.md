@@ -27,20 +27,7 @@ O projeto demonstrou a viabilidade de ferramentas de design ricas rodando inteir
  
 ## 🔧 Como Executar
  
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/vpaes053/maker-svg.git
-    ```
-2.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
-3.  **Configure as variáveis de ambiente:**
-    Crie um arquivo `.env` na raiz com as chaves do Firebase (veja `.env.example`).
-4.  **Inicie o ambiente de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
+(https://ais-dev-lgvwdjxvrxde2n6e7o4fsy-151218046624.us-east5.run.app)
  
 ---
 [Voltar ao início](https://github.com/vpaes053)
