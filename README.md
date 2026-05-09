@@ -39,7 +39,7 @@ Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na 
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **MVP+ Gerador de Formas SVG** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-mvp-svg/) |
-| **Laboratório de visual** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-laboratório-de-classificação-visual/) |
+| **Laboratório de classificação visual** |treinamento de uma inteligência artificial para o reconhecimento e classificação supervisionada de imagens. | [Ver Projeto](./projeto-laboratório-de-classificação-visual/) |
 
  
 ---
