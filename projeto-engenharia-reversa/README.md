@@ -1,9 +1,7 @@
 # 🧬 Engenharia de Prompt - Explorações e Engenharia Reversa
 
 ## 📝 Descrição do Projeto
-Este repositório reúne atividades práticas de **Engenharia de Prompt**, focadas em explorar o potencial de modelos de linguagem (LLMs) na geração de ativos visuais, narrativos e na reconstrução funcional de interfaces. O projeto demonstra como o uso de prompts estruturados e contextos bem definidos permite que a IA execute tarefas de alta complexidade com precisão técnica e rigor estético.
-
-O desenvolvimento foi dividido em três frentes: a criação de imagens barrocas futuristas, a produção de narrativas densas e a **engenharia reversa** de ferramentas de design.
+Este projeto apresenta um estudo de **Engenharia Reversa** focado na replicação funcional e estética do site [Blobmaker.app](https://www.blobmaker.app/), um editor de formas SVG orgânicas. O desafio consistiu em clonar a interface e as funcionalidades do sistema sem visualizar o código-fonte original, transferindo o esforço da escrita sintática para a **descrição lógica e funcional** mediada por ferramentas de IA. 
 
 ## 🚀 Desafios e Funcionalidades
 ### 1. Engenharia Reversa (Blobmaker Clone)
