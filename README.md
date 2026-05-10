@@ -42,7 +42,7 @@ Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na 
 | **Laboratório de classificação visual** |treinamento de uma inteligência artificial para o reconhecimento e classificação supervisionada de imagens. | [Ver Projeto](./projeto-laboratório-de-classificação-visual/) |
 | **Engenharia Reversa** | Este projeto apresenta um estudo de Engenharia Reversa focado na replicação funcional e estética do site Blobmaker.app, um editor de formas SVG orgânicas. | [Ver Projeto](./projeto-engenharia-reversa/) |
 | **A Corrida do Prompt** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-corrida-do-prompt/) |
-| **Batalha de Modelos e Engenharia de Prompt** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-mvp-svg/) |
+| **Batalha de Modelos e Engenharia de Prompt** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-batalha-de-modelos-&-engenharia-de-prompt/) |
 
 ---
  ### 🏗 Estrutura do Repositório
