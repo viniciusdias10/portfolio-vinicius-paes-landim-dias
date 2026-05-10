@@ -38,7 +38,7 @@ Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na 
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **MVP+ Gerador de Formas SVG** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-mvp-svg/) |
+| **MVP+ Gerador de Formas SVG** | O Maker SVG é um editor profissional de formas orgânicas (blobs) desenvolvido para designers e desenvolvedores que buscam criar ativos visuais únicos com alta precisão. | [Ver Projeto](./projeto-mvp-svg/) |
 | **Laboratório de classificação visual** |treinamento de uma inteligência artificial para o reconhecimento e classificação supervisionada de imagens. | [Ver Projeto](./projeto-laboratório-de-classificação-visual/) |
 | **Engenharia Reversa** | Este projeto apresenta um estudo de Engenharia Reversa focado na replicação funcional e estética do site Blobmaker.app, um editor de formas SVG orgânicas. | [Ver Projeto](./projeto-engenharia-reversa/) |
 | **A Corrida do Prompt** | Este projeto foi desenvolvido como uma atividade prática de Engenharia de Prompt, focada em explorar a capacidade de modelos de linguagem (LLMs) em gerar ativos visuais e textuais de alta complexidade. | [Ver Projeto](./projeto-corrida-do-prompt/) |
