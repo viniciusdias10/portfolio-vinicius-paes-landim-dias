@@ -11,7 +11,7 @@
 ---
  
 ### 👨‍💻 Sobre
-Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na UNICID. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em Área de Interesse : Desenvolvimento Backend / Análise de Dados.
+Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na UNICID. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em Área de Interesse : Desenvolvimento Back end / Análise de Dados.
  
 * **Habilidades Técnicas:** : Python, java
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
