@@ -40,7 +40,7 @@ Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na 
 | :--- | :--- | :---: |
 | **MVP+ Gerador de Formas SVG** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-mvp-svg/) |
 | **Laboratório de classificação visual** |treinamento de uma inteligência artificial para o reconhecimento e classificação supervisionada de imagens. | [Ver Projeto](./projeto-laboratório-de-classificação-visual/) |
-| **ENgenharia Reversa** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-engenharia-reversa/) |
+| **Engenharia Reversa** | Este projeto apresenta um estudo de Engenharia Reversa focado na replicação funcional e estética do site Blobmaker.app, um editor de formas SVG orgânicas. | [Ver Projeto](./projeto-engenharia-reversa/) |
  
 ---
  ### 🏗 Estrutura do Repositório
