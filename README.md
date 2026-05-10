@@ -43,11 +43,12 @@ Atualmente cursando o 1º semestre de Análise e Desenvolvimento de Sistemas na 
 | **Engenharia Reversa** | Este projeto apresenta um estudo de Engenharia Reversa focado na replicação funcional e estética do site Blobmaker.app, um editor de formas SVG orgânicas. | [Ver Projeto](./projeto-engenharia-reversa/) |
 | **A Corrida do Prompt** | Este projeto foi desenvolvido como uma atividade prática de Engenharia de Prompt, focada em explorar a capacidade de modelos de linguagem (LLMs) em gerar ativos visuais e textuais de alta complexidade. | [Ver Projeto](./projeto-corrida-do-prompt/) |
 | **Batalha de Modelos e Engenharia de Prompt** | O objetivo principal foi realizar um estudo comparativo entre diversos modelos de linguagem (LLMs) utilizando uma estrutura de Prompt em XML para a criação de uma Single Page Application (SPA) de pacotes de viagens. | [Ver Projeto](./projeto-batalha-de-modelos-&-engenharia-de-prompt/) |
+| **Engenharia de Software e IA com Bubble.io** | Ferramenta avançada de design generativo e gestão de concursos de artes digitais. | [Ver Projeto](./projeto-engenharia-de-software-e-IA-com-Bubble.io/) |
 
 ---
  ### 🏗 Estrutura do Repositório
 Abaixo, a organização deste repositório para facilitar a navegação:
  
 - `root/`: Arquivo de apresentação principal.
-- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o README específico do projeto acadêmico.projeto-corrida-do-prompt
+- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o README específico do projeto acadêmico.
 
