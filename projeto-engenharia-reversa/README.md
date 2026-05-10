@@ -31,6 +31,6 @@ O projeto foi desenvolvido e refinado utilizando as seguintes ferramentas:
 3. Para o clone funcional, acesse: [Link do App Clone](https://ais-dev-id7ao2zwc4w7fz66pg7o47-151218046624.us-east5.run.app/).
 
 ---
-**Desenvolvedores:** Vinicius Paes Landim Dias
+**Desenvolvedore:** Vinicius Paes Landim Dias
 
 [Voltar ao início](https://github.com/vpaes053)
