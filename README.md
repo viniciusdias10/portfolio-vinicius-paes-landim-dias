@@ -6,7 +6,7 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/vinicius-paes-3205762a8/)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:viniciuspldias@gmail.com)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](file:///C:/Users/VINICIUSPAESLANDIMDI/Downloads/Curriculo_Vinicius.docx.pdf)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1y_1aebgX3P837Wl278Tqe9VnadHSzj-p/view?usp=drive_link)
  
 ---
  
